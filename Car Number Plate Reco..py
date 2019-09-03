@@ -9,7 +9,7 @@ import imutils
 import pytesseract
 import numpy as np
 
-pytesseract.pytesseract.tesseract_cmd="C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd="C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
     
     #read the image file
 image=cv2.imread("C:\\Users\\HP\\Desktop\\Car-Number1-Plate.jpg")
